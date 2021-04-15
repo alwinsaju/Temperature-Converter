@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print('A:Convert Celsius to Fahrenheit\nB:Convert Fahrenheit to Celsius');
+  print('Please Select one of the following :\n\tA:Convert Celsius to Fahrenheit\n\tB:Convert Fahrenheit to Celsius');
   String selection;
   
   do {
@@ -14,10 +14,10 @@ void main() {
   
   switch (selection) {
     case 'A':
-      print('$temp °C is ${temp * 1.8 + 32} °F . This is caculated by Multiplying the temperature which is in Celcius ( in this case, You Chose : $temp °C) with 1.8 and then adding 32 to it. In simple terms ($temp * 1.8 + 32) ');
+      print('\nX-X-X-X-X \n\n$temp °C is ${temp * 1.8 + 32} °F . \nThis is caculated by Multiplying the temperature which is in Celcius ( in this case, You Chose : $temp °C) \nwith 1.8 and then adding 32 to it. \nIn simple terms ($temp * 1.8 + 32) ');
       break;
     case 'B':
-      print('$temp °F is ${(temp - 32) / 1.8} °C . This is caculated by Substracting the temperature which is in Fahrenheit ( in this case, You Chose : $temp °F) with 32 and then divide it by 32. In simple terms [($temp - 32) / 1.8]');
+      print('\nX-X-X-X-X \n\n$temp °F is ${(temp - 32) / 1.8} °C . \nThis is caculated by Substracting the temperature which is in Fahrenheit ( in this case, You Chose : $temp °F) \nwith 32 and then divide it by 32. \nIn simple terms [($temp - 32) / 1.8]');
       break;
     default:
       break;
